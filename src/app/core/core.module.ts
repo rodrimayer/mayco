@@ -1,3 +1,4 @@
+import { CoreRoutingModule } from './core-routing.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ShellComponent } from './shell/shell.component';
@@ -7,7 +8,8 @@ import { FooterComponent } from './shell/footer/footer.component';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    CoreRoutingModule
   ],
   declarations: [ShellComponent, MainContentComponent, HeaderComponent, FooterComponent]
 })
