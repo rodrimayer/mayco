@@ -2,7 +2,7 @@
   "name": "mayco",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {
+   "scripts": {
     "preinstall": "npm install -g http-server",
     "postinstall": "ng build",
     "start": "http-server dist/"
